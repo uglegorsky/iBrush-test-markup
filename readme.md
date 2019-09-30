@@ -6,6 +6,6 @@
 	<li>Run: <strong>gulp</strong></li>
 </ol>
 
-Based on HTML5 template "OptimizedHTML 5"
-<p>Author: <a href="https://webdesign-master.ru/blog/tools/2019-07-15-optimizedhtml-5.html" target="_blank">WebDesign Master</a></p>
-ractices for <strong>responsive images</strong> optimizing and contains a <strong>.htaccess</strong> file for resources caching (images, fonts, HTML, CSS, JS and other content types).</p>
+Based on HTML5 template «OptimizedHTML 5»
+<p>Author: agragregra <a href="https://github.com/agragregra/OptimizedHTML-5" target="_blank">OptimizedHTML-5
+</a></p>
