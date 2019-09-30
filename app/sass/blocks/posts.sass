@@ -1,0 +1,61 @@
+.posts
+    padding-top: 60px
+    padding-bottom: 80px
+    h3
+        font-family: 'Consolas', sans-serif
+        font-weight: 400
+        font-size: 28px
+        line-height: 24px
+        margin-bottom: 35px
+    &__list
+    &__item
+        display: block
+        margin-right: 30px
+        &:last-child
+            margin-right: 0
+        p
+            margin-top: 15px
+            font-family: 'Consolas', sans-serif
+            font-weight: 700
+            font-size: 18px
+    &__selection
+        display: none
+
+.fc-slide
+    margin-right: 30px
+    p
+        margin-top: 15px
+        font-family: 'Consolas', sans-serif
+        font-weight: 700
+        font-size: 18px
+        // text-align: center
+    img
+        margin: 0 auto
+@media ( max-width: 768px)
+    .posts
+        padding-top: 40px
+        padding-bottom: 60px
+        h3
+            font-size: 21px
+            margin-bottom: 30px
+        &__item
+            min-width: 320px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin-right: 0
+            img
+                width: 280px
+                height: 280px
+                margin: 0 auto
+    .fc-slide
+        margin-right: 0
+        p
+            text-align: center
+        img
+            width: 280px
+            height: 280px
+            
+
+    

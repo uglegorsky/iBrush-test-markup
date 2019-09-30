@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>iBrush</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+	<section class="head">
+		<div class="container">
+			<h1>Путь JavaScript</h1>
+		</div>
+	</section>
+	<section class="books">
+		<div class="container books__wrapper">
+			<div class="books__image-wrap">
+				<img src="img/_src/books-1.jpg" alt="Books" title="Books" class="books__image">
+				<div class="books__date date">
+					<span class="date__day">12</span>
+					<span class="date__month">апреля</span>
+				</div>
+			</div>
+			<p class="books__caption">
+				Можно выделить три основных направления для прогресса JavaScript Middleюю
+			</p>
+		</div>
+	</section>
+	<div class="container">
+		<span class="line"></span>
+	</div>
+	<section class="quote">
+		<div class="container">
+			<h3>Серверный JavaScript</h3>
+			<div class="quote__content">
+				<div class="quote__content--left-column">
+					<img src="img/_src/quotation-mark.png" alt="Quotation Mark" title="Quotation Mark" class="quote__mark">
+				</div>
+				<div class="quote__content--right-column">
+					<p class="quote__text">Разработчики и клиенты часто неправильно понимают, что такое система. Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.</p>
+					<p class="quote__author">&mdash; Р. Мартин</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ad">
+		<div class="container">
+			<p class="ad__title">Реклама на <a href="https://ibrush.ru">blabla.com</a></p>
+			<img src="img/_src/banner_mobile.jpg" alt="Banner" title="Banner" class="ad__mobile-banner">
+			<img src="img/_src/banner.jpg" alt="Banner" title="Banner" class="ad__banner">
+		</div>
+	</section>
+	<section class="end">
+		<div class="container">
+			<h3>Заключение</h3>
+			<p>Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое устройство диссонирует лирический субъект. Абстрактное высказывание пространственно просветляет деструктивный символ. Ямб, несмотря на то, что все эти характерологические черты отсылают не к единому образу нарратора, интегрирует мифопоэтический хронотоп. Действительно, ударение приводит палимпсест. Контрапункт приводит ритм.</p>
+		</div>
+	</section>
+	<section class="review">
+		<div class="container">
+			<p>Оцените статью</p>
+			<div class="review__stars stars">
+				<input class="stars__input" id="star5" type="radio" name="stars"/>
+				<label class="stars__label" title="5" for="star5"></label>
+				
+				<input class="stars__input" id="star4" type="radio" name="stars"/>
+				<label class="stars__label" title="4" for="star4"></label>
+				
+				<input class="stars__input" id="star3" type="radio" name="stars"/>
+				<label class="stars__label" title="3" for="star3"></label>
+
+				<input class="stars__input" id="star2" type="radio" name="stars"/>
+				<label class="stars__label" title="2" for="star2"></label>
+				
+				<input class="stars__input" id="star1" type="radio" name="stars"/>
+				<label class="stars__label" title="1" for="star1"></label>
+			</div>
+			<p>Добавить комментарий к книге</p>
+			<form action="post" class="review__form form">
+				<div class="form__label">
+					<input type="text" name="name" id="name" placeholder="&nbsp;" class="form__name">
+					<span>Имя</span>
+				</div>
+				<div class="form__label">
+					<input type="email" name="email" id="email" placeholder="&nbsp;" class="form__email">
+					<span>E-mail</span>
+				</div>
+				<select id="book" class="form__list">
+					<option value="">Выберите книгу</option>
+					<option value="JavaScript ниндзя">JavaScript ниндзя</option>
+					<option value="Pragmatic Guide to JavaScript">Pragmatic Guide to JavaScript</option>
+					<option value="Pro JavaScript Techniques">Pro JavaScript Techniques</option>
+					<option value="Выразительный JavaScript">Выразительный JavaScript</option>
+				</select>
+				<textarea name="review" id="review" cols="30" rows="10" placeholder="Ваш отзыв" class="form__text"></textarea>
+				<button type="submit">Отправить</button>
+			</form>
+		</div>
+	</section>
+	<section class="posts">
+		<div class="container">
+			<h3>Похожие посты</h3>
+			<div class="posts__wrap">
+				<ul class="posts__list">
+					<li class="posts__item">
+						<img src="img/_src/posts_react.jpg" alt="ReactJS" title="ReactJS">
+						<p>События жизненного цикла ReactJS</p>
+					</li>
+					<li class="posts__item">
+						<img src="img/_src/posts_grid.jpg" alt="CSS Grid" title="CSS Grid">
+						<p>CSS Grids. Полное руководство</p>
+					</li>
+					<li class="posts__item">
+						<img src="img/_src/posts_async.jpg" alt="Async JS" title="Async JS">
+						<p>Асинхронность в JavaScript</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

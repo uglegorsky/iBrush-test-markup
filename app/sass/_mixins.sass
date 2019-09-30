@@ -1,0 +1,13 @@
+@mixin min-max($min-width, $max-width, $padding)
+  min-width: $min-width
+  max-width: $max-width
+  padding: 0 $padding
+  box-sizing: border-box
+  margin: 0 auto
+
+@mixin font($f-name, $f-style, $f-weight, $f-url)
+	@font-face
+		font-family: $f-name
+		font-style: $f-style
+		font-weight: $f-weight
+		src: url($f-url) format('woff2')

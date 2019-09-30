@@ -1,0 +1,21 @@
+@charset "UTF-8"
+
+/**
+ * Основные стили
+ **/
+
+body
+  font-family: 'Consolas', sans-serif
+  font-size: 16px
+  overflow-x: hidden
+
+.container-fluid
+  @include min-max(320px, 768px, 0)
+
+.container
+  @include min-max(320px, 768px, 15px)
+
+@media (max-width: 768px)
+  .container
+    padding: 0 20px
+

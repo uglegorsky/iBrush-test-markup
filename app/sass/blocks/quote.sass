@@ -1,0 +1,39 @@
+.quote
+    padding-bottom: 55px
+    h3
+        font-size: 28px
+        line-height: 36px
+        font-family: 'Consolas', sans-serif
+    &__content
+        margin-top: 30px
+        display: flex
+    &__mark
+        display: block
+        width: 34px
+        height: 34px
+    &__text, &__author
+        font-family: 'Segoe UI', sans-serif
+        font-style: italic
+        font-size: 18px
+        font-weight: 400
+        line-height: 24px
+        padding-left: 30px
+        padding-top: 10px
+    &__author
+        color: #777777
+        margin-top: 20px
+
+@media (max-width: 768px)
+    .quote
+        h3
+            margin-top: 40px
+            font-size: 20px
+        &__content
+            margin-top: 25px
+        &__text, &__author
+            font-size: 14px
+        &__author
+            margin-top: 10px
+
+
+    

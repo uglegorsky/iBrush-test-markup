@@ -1,0 +1,113 @@
+.review
+    padding: 40px 0
+    background-color: #ededed
+    box-shadow: 0px 0px 25px 0px rgba(218, 218, 218, 1) inset
+    p
+        font-family: 'Consolas', serif
+        font-size: 18px
+        line-height: 18px
+        padding-bottom: 10px
+        font-weight: 700
+
+.stars
+    display: flex
+    flex-direction: row-reverse
+    justify-content: flex-end
+    margin-bottom: 40px
+    &__input
+        display: none
+    label:hover, label:hover, input:checked ~ label, input:hover ~ label
+        background-image: url('../../img/_src/star_full.png')
+    &__label
+        display: block
+        cursor: pointer
+        width: 24px
+        height: 24px
+        margin-right: 10px
+        background-image: url('../../img/_src/star.png')
+
+.form
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 10px
+    input, select
+        box-sizing: border-box
+        width: 226px
+        height: 44px
+        color: black
+        font-family: Arial, sans-serif
+        font-size: 14px
+        border: 1px solid #e6e6e6
+        border-radius: 5px
+        padding: 0px 18px
+        margin-right: 20px
+        outline: none
+        &:focus
+            border-color: black
+    select
+        margin-right: 0
+    textarea
+        flex-basis: 100%
+        box-sizing: border-box
+        height: 100px
+        border: 1px solid #e6e6e6
+        border-radius: 5px
+        font-size: 14px
+        font-family: Arial, sans-serif
+        padding: 15px 18px
+        margin-top: 10px
+        &:focus
+            border-color: black
+    &__label
+        position: relative
+        font-family: Arial, sans-serif
+        font-size: 14px
+        transition: all 0.15s ease
+        span
+            position: absolute
+            top: 13px
+            left: 18px
+            color: #777777
+            transition: all 0.3s ease
+    &__name, &__email
+        position: relative
+        padding-top: 10px !important
+        &:focus + span
+            transform: translateY(-10px)
+        &:not(:placeholder-shown) + span
+            transform: translateY(-10px)
+    button
+        box-sizing: border-box
+        width: 226px
+        height: 44px
+        margin-top: 20px
+        color: white
+        font-size: 18px
+        border-radius: 3px
+        font-family: Consolas, sans-serif
+        font-weight: 700
+        text-transform: uppercase
+        border: none
+        background-color: #0062ff
+        cursor: pointer
+
+
+@media (max-width: 768px)
+    .review
+        p
+            font-size: 16px
+    .form
+        &__label
+            width: 100%
+            height: 44px
+            margin-bottom: 15px
+        input, select
+            width: 100%
+            margin-right: 0
+        textarea
+            min-height: 120px
+        button
+            width: 100%
+    .stars
+        margin-bottom: 20px
