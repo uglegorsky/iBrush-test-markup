@@ -6,6 +6,5 @@
 	<li>Run: <strong>gulp</strong></li>
 </ol>
 
-Based on HTML5 template «OptimizedHTML 5»
-<p>Author: agragregra <a href="https://github.com/agragregra/OptimizedHTML-5" target="_blank">OptimizedHTML-5
-</a></p>
+Based on HTML5 template <a href="https://github.com/agragregra/OptimizedHTML-5" target="_blank">OptimizedHTML-5
+</a>
